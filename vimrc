@@ -6,7 +6,7 @@ set showtabline=0
 set rtp+=~/.vim/bundle/Vundle.vim
 
 " **** install Plugin in `~/.vim/ex_plugins/` directory ****
-call vundle#begin('~/.vim/ex_pulgins/')
+call vundle#begin('~/.vim/ex_plugins/')
 
 Plugin 'VundleVim/Vundle.vim'
 " **** Plugins list [start] ****
