@@ -24,7 +24,7 @@ vim +PluginInstall +quitall
 # Post update 
 pushd . > /dev/null
 
-if ![ -d ~/.vim/ex_plugins/YouCompleteMe ]; then
+if ! [ -d ~/.vim/ex_plugins/YouCompleteMe ]; then
 	echo '[ERROR]: `YouCompleteMe` is not found try installing it manually.'
 	RETVAL=1
 else
