@@ -34,7 +34,7 @@ else
 		xdg-open "https://github.com/ycm-core/YouCompleteMe#installation"
 		RETVAL=2
 	}
-if
+fi
 
 popd > /dev/null
 
