@@ -19,7 +19,7 @@ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 curl -sSL https://raw.githubusercontent.com/dineshsaini/personal_vim_hacks/master/vimrc -o ~/.vimrc
 
 # Perform changes 
-vim +PluginInstall +quitall
+( vim +PluginInstall +quitall )
 
 # Post update 
 pushd . > /dev/null
