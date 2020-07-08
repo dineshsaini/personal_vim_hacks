@@ -7,7 +7,7 @@
 RETVAL=0
 
 # Install dependencies
-sudo apt-get install git curl cmake exuberant-ctags -y
+sudo apt-get install vim vim-gtk git curl cmake exuberant-ctags -y
 
 # Take backup
 if [ -f ~/.vimrc ]; then
